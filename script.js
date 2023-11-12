@@ -5,7 +5,7 @@ let array = [];
 function resetArray() {
     array = [];
     for (let i = 0; i < 10; i++) {
-        array.push(Math.floor(Math.random() * 100));
+        array.push(Math.floor(Math.random() * 500));
     }
     displayArray();
 }
