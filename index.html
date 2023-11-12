@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <div id="toolbar">
+        <button onclick="startSorting()">Start Sorting</button>
+        <button onclick="resetArray()">Reset Array</button>
+        <select id="algorithmSelector">
+            <option value="bubbleSort">Bubble Sort</option>
+            <option value="quickSort">Quick Sort</option>
+            <option value="mergeSort">Merge Sort</option>
+        </select>
+    </div>
+    <div id="arrayContainer"></div>
+    <script src="algorithms/bubbleSort.js"></script>
+    <script src="algorithms/quickSort.js"></script>
+    <script src="algorithms/mergeSort.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

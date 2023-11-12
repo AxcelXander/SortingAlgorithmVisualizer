@@ -1,0 +1,17 @@
+#arrayContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+#arrayContainer div {
+    width: 2px;
+    background-color: #4CAF50;
+}
+
+#algorithmSelector {
+    margin-bottom: 20px;
+}
+
