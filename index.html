@@ -5,6 +5,7 @@
     <title>Sorting Algorithm Visualizer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<body>
     <div id="toolbar">
         <button onclick="startSorting()">Start Sorting</button>
         <button onclick="resetArray()">Reset Array</button>
@@ -14,7 +15,14 @@
             <option value="mergeSort">Merge Sort</option>
         </select>
     </div>
-    <div id="arrayContainer"></div>
+    <div id="descriptionContainer">
+        <h1 id="algorithmTitle"></h1>
+        <p id="algorithmDescription"></p>
+    </div>
+    <div id="arrayContainer">
+        <div class="bar"></div>
+        <!-- More bars... -->
+    </div>
     <script src="algorithms/bubbleSort.js"></script>
     <script src="algorithms/quickSort.js"></script>
     <script src="algorithms/mergeSort.js"></script>

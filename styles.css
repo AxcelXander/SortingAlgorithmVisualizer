@@ -6,12 +6,34 @@
     border: 1px solid #000;
 }
 
-#arrayContainer div {
-    width: 2px;
-    background-color: #4CAF50;
-}
-
 #algorithmSelector {
     margin-bottom: 20px;
 }
 
+.bar {
+    position: relative;
+    width: 10px;
+    margin-right: 1px;
+    transition: all 0.3s ease;
+    background: linear-gradient(to top, #ff6e7f, #bfe9ff);
+}
+
+.bar span {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;
+}
+
+.comparing {
+    background-color: yellow !important;
+}
+
+.swapping {
+    background-color: red !important;
+}
+
+.sorted {
+    background-color: green !important;
+}
