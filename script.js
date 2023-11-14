@@ -58,6 +58,9 @@ function updateColors(index1, index2, action) {
 async function startSorting() {
     let algorithm = algorithmSelector.value;
     switch (algorithm) {
+        case "heapSort":
+            await heapSort(array);
+            break;
         case "bubbleSort":
             await bubbleSort(array);
             break;
@@ -79,6 +82,10 @@ document.getElementById('algorithmSelector').addEventListener('change', function
     let title = '';
     let description = '';
     switch (this.value) {
+        case 'heapSort':
+            title = 'Heap Sort';
+            description = 'Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure. ' ;
+            break;
         case 'bubbleSort':
             title = 'Bubble Sort';
             description = 'Bubble Sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, ' +
