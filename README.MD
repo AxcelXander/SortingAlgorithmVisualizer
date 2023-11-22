@@ -16,7 +16,7 @@ Algorithm descriptions are stored on the server. When a user selects an algorith
 ## How to Use
 
 1. Start the server by running `node server.js` in your terminal.
-2. Open `index.html` in your web browser.
+2. Open `http://127.0.0.1:3000/` in your web browser.
 3. Select a sorting algorithm from the dropdown menu. The description of the selected algorithm will be fetched from the server and displayed.
 4. Click 'Start Sorting' to begin the visualization.
 5. Click 'Reset Array' to generate a new array.
