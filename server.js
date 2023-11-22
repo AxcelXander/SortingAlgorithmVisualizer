@@ -4,6 +4,7 @@ const app = express();
 const port = 3000;
 
 app.use(cors());
+app.use(express.static('public'));
 
 const descriptions = {
     'bubbleSort': 'Bubble Sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, ' +
